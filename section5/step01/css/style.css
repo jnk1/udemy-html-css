@@ -10,7 +10,6 @@
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: aliceblue;
 }
 
 .header h1 {
@@ -27,6 +26,15 @@
 
 .header ul li {
   margin-top: 30px;
+}
+
+.header ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header ul li a:hover {
+  color: tomato;
 }
 
 .main {
