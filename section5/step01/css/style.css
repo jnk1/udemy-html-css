@@ -92,5 +92,22 @@ h2 {
 }
 
 .footer {
-  background-color: forestgreen;
+  background-color: rgb(180, 174, 174);
+}
+
+.footer .footer-title {
+  color: #fff;
+  margin: 10px 0 20px 40px;
+}
+
+.footer .footer-textbox {
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-text {
+  width: 230px;
 }
