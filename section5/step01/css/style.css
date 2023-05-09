@@ -82,8 +82,13 @@ h2 {
 }
 
 .sns {
-  background-color: darkcyan;
   margin: 0 auto;
+}
+
+.sns .sns-logo {
+  width: 282px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
