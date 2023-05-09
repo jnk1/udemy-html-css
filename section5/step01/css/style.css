@@ -58,7 +58,27 @@ h2 {
 .MainText {
   grid-column: 4;
   grid-row: 2;
-  background-color: khaki;
+}
+
+.MainText .p1 {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.MainText .p2 {
+  text-indent: 1rem;
+}
+
+.MainText .button-back {
+  width: 70px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 10px;
+  padding: 3px 0;
 }
 
 .sns {
