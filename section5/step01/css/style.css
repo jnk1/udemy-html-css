@@ -29,10 +29,6 @@
   margin-top: 30px;
 }
 
-.TopPhoto {
-  background-color: bisque;
-}
-
 .main {
   display: grid;
   grid-template-columns: 40px 1fr 40px 1fr 40px;
