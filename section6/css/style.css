@@ -1,0 +1,151 @@
+h1, h2, p {
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #666;
+}
+
+.container {
+  display: grid;
+  width: 375px;
+  grid-template-columns: 375px;
+  grid-template-rows: 40px 160px auto auto auto;
+  margin: 0 auto;
+  gap: 10px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin-left: 15px;
+  font-size: 20px;
+  color: #81A238;
+  padding-top: 8px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  width: 105px;
+  justify-content: space-between;
+  margin-right: 18px;
+}
+
+.header ul li {
+  margin-top: 18px;
+}
+
+.header ul li a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.header ul li a:hover {
+  color: tomato;
+}
+
+.TopPhoto img {
+  width: 375px;
+}
+
+.main {
+  display: grid;
+  gap: 10px 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #726F6F;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.photo {
+  margin-bottom: 20px;
+}
+
+.photo img {
+  width: 375px;
+}
+
+.photo .mejiros {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo .mejiros img {
+  width: 117px;
+  height: 117px;
+}
+
+.MainText {
+  width: 315px;
+  margin: 0 auto 28px;
+}
+
+.MainText .p1 {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.MainText .p2 {
+  text-indent: 1rem;
+}
+
+.MainText .button-back {
+  width: 70px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-top: 10px;
+  padding: 3px 0;
+}
+
+.sns {
+  margin: 0 auto;
+  padding-top: 12px;
+  border-top: 1px solid #707070;
+}
+
+.sns .sns-logo {
+  width: 251px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns .sns-logo img {
+  width: 44px;
+}
+
+.footer {
+  /* background-color: rgb(180, 174, 174); */
+}
+
+.footer .footer-title {
+  color: #fff;
+  height: 15px;
+  background-color: #B4AEAE;
+  font-size: 15px;
+  padding: 12px 0 12px 30px;
+  margin-bottom: 16px;
+}
+
+.footer .footer-textbox {
+  margin-left: 46px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-text {
+  width: 230px;
+  line-height: 25px;
+}
